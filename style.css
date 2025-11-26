@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(154, 174, 199);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 35px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(0, 25, 92);
+    color: white;
+    font: 1em sans-serif;
+    text-decoration: none;
+}
+
+.hehe {
+    width: 85px;
+    height: 18px;
+    margin-right: 150px;
+    padding: 10px;
+    border: 1px solid rgb(0, 25, 92);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 25, 92);
+    text-align: center;
+    text-decoration: none;
+}
+
+.hehe:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(0, 25, 92);
+    color: rgb(255, 255, 255);
+}
+
+.hyrje {
+    display: flex;
+    flex-direction: row;
+    width: 1854px;
+    height: 450px;
+    padding-top: 90px;
+    padding-left: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-image: url(./images/lalalalalalza);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: start;
+    font: 1.12em sans-serif;
+
+}
+
+.p {
+    color: white;
+}
+
+.serv2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 350px;
+    color: rgb(0, 25, 92);
+
+}
+
+.parae {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color: rgb(0, 25, 92);
+}
+
+.desc {
+    display: flex;
+    gap: 150px;
+}
+
+.gallery {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font: 0.9em sans-serif;
+    background-color: rgb(124, 141, 177);
+    color: rgb(0, 25, 92);
+}
+
+.cardss {
+    border-radius: 15px;
+}
+
+.abtus {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(0, 25, 92);
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    font: 1em sans-serif;
+}
+
+.abtus a {
+    background-size: 500px;
+    margin: 25px;
+    width: 85px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid rgb(0, 25, 92);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 25, 92);
+    text-decoration: none;
+    text-align: center;
+}
+
+.abtus p {
+    width: 1500px;
+    text-align: center;
+}
+
+.ctus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font: 1em sans-serif;
+}
+
+.ctus p {
+    font: 3em sans-serif;
+    text-align: center;
+    color: rgb(0, 25, 92)
+}
+
+.ct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: ; */
+}
+
+.ctus button {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 7px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(0, 25, 92);
+}
+.ct input {
+    margin: 15px;
+    color: white;
+    background-color: rgb(0, 25, 92);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+}
+.offered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 1em sans-serif;
+}
