@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(154, 174, 199);
+    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
 }
@@ -40,7 +40,6 @@ body {
 .hyrje {
     display: flex;
     flex-direction: row;
-    width: 1854px;
     height: 450px;
     padding-top: 90px;
     padding-left: 50px;
@@ -49,6 +48,7 @@ body {
     background-image: url(./images/lalalalalalza);
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100%;
     text-align: start;
     font: 1.12em sans-serif;
 
@@ -66,11 +66,14 @@ body {
 
 }
 
-.parae {
+.parae a {
     display: flex;
     flex-direction: column;
+    padding: 35px;
+    text-decoration: none;
     width: 200px;
     color: rgb(0, 25, 92);
+    font: 1.1em sans-serif;
 }
 
 .desc {
@@ -78,18 +81,28 @@ body {
     gap: 150px;
 }
 
+.ourgallery {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(0, 25, 92);
+    font: 1em sans-serif;
+}
+
 .gallery {
     margin-top: 30px;
+    margin: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    width: 305px;
+    height: 170px;
     padding: 10px;
     border: none;
     border-radius: 20px;
@@ -107,16 +120,20 @@ body {
     flex-direction: column;
     color: white;
     background-color: rgb(0, 25, 92);
-    padding: 30px;
-    margin: 30px;
+    padding: 40px;
+    margin-top: 30px;
+    margin: 10px;
     justify-content: center;
     align-items: center;
     font: 1em sans-serif;
+    height: 300px;
+    text-align: center;
+    border-radius: 15px;
 }
 
 .abtus a {
     background-size: 500px;
-    margin: 25px;
+    margin: 10px;
     width: 85px;
     height: 18px;
     padding: 10px;
@@ -128,13 +145,12 @@ body {
     text-align: center;
 }
 
-.abtus p {
-    width: 1500px;
-    text-align: center;
-}
-
 .ctus {
+    color: white;
+    background-color: rgb(0, 25, 92);
     display: flex;
+    border-radius: 15px;
+    margin: 10px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -163,19 +179,98 @@ body {
     border: 1px solid white;
     background-color: rgb(0, 25, 92);
 }
+
 .ct input {
     margin: 15px;
     color: white;
-    background-color: rgb(0, 25, 92);
+    background-color: rgb(124, 141, 177);
     width: 300px;
     height: 50px;
     border: none;
     border-radius: 7px;
 }
-.offered {
+
+.ourcts {
+    color: rgb(0, 25, 92);
+    background-color: rgb(124, 141, 177);
+    border-radius: 15px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font: 1em sans-serif;
+    padding: none;
+    text-align: center;
+}
+
+.offered {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(0, 25, 92);
+    justify-content: flex-start;
+    margin: 10px;
+    font: 1em sans-serif;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.plining {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(0, 25, 92);
+    justify-content: flex-start;
+    font: 1em sans-serif;
+    padding-left: 25px;
+}
+
+.cntus {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color:rgb(124, 141, 177);
+    padding: 40px;
+    margin-top: 30px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    font: 1.1em sans-serif;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.cntus a {
+    background-size: 500px;
+    margin: 10px;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid rgb(0, 25, 92);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 25, 92);
+    text-decoration: none;
+    text-align: center;
+}
+footer {
+    color: white;
+    background-color: rgb(0, 25, 92);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font: 0.8em sans-serif;
+    padding: 15px;
+    margin-top: 25px;
+}
+.ft {
+display: flex;
+flex-direction: column;
+}
+.ft a {
+text-decoration: none;
+color: white;
 }
